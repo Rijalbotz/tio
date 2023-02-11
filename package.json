@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node --max_old_space_size=8192 index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "termux",
@@ -21,7 +21,7 @@
   "author": "TioDev",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "github:hostinger-bot/baileys",
+    "@adiwajshing/baileys": "^4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^3.0.0",
     "awesome-phonenumber": "^2.64.0",
